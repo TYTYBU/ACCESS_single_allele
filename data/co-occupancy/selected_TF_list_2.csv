@@ -1,0 +1,5 @@
+﻿cell_type,TF_name,y_min,y_max
+K562,NR2F6,0.2,0.55
+K562,MAX,0.25,0.6
+HepG2,RFX1,0.25,0.55
+HepG2,USF1,0.25,0.6

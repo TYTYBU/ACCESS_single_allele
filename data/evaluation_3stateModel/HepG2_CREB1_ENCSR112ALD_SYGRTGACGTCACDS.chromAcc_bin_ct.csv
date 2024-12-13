@@ -1,0 +1,11 @@
+score_bin,motif_ct
+Inactive,1000
+Active: 0-50,28
+Active: 50-100,121
+Active: 100-150,70
+Active: 150-200,22
+Active: 200-250,19
+Active: 250-300,14
+Active: 300-350,16
+Active: 350-400,8
+Active: 400+,249

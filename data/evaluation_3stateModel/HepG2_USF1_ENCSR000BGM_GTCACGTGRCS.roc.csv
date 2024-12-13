@@ -1,0 +1,4 @@
+cell_type,TF_name,motif_str,model_type,read_type,AUROC
+HepG2,USF1,ENCSR000BGM_GTCACGTGRCS,all_channel,unbound,0.9906944843807753
+HepG2,USF1,ENCSR000BGM_GTCACGTGRCS,all_channel,bound,0.989496889699174
+HepG2,USF1,ENCSR000BGM_GTCACGTGRCS,all_channel,recently bound,0.9974007058913786
