@@ -52,11 +52,10 @@ do
 done
 
 
-# ### final co-bidning coditions test
-# ENV_SETTING="eval \"\$(/net/apps/conda/miniconda3/bin/conda shell.bash hook)\" && conda activate access"
-# qsub_options="-N cobinding_3stateModel_v2 -b y -j y -q all.q@compute-0-1 -wd /net/bgm/sherwood -o /net/bgm/sherwood/job_out -pe smp 16"
-# qsub $qsub_options "$ENV_SETTING && python $SCRIPT_PATH/test.py"
-# qsub $qsub_options "$ENV_SETTING && python $SCRIPT_PATH/test_2.py"
+### calculate periodicity strength
+ENV_SETTING="eval \"\$(/net/apps/conda/miniconda3/bin/conda shell.bash hook)\" && conda activate access"
+qsub_options="-N cobinding_3stateModel_v2 -b y -j y -q all.q@compute-0-1 -wd /net/bgm/sherwood -o /net/bgm/sherwood/job_out -pe smp 16"
+qsub $qsub_options "$ENV_SETTING && python $SCRIPT_PATH/calc_perodicity_strength.py"
 
 
 
